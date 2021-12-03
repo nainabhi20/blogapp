@@ -1,0 +1,49 @@
+.input{
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 0.5rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+
+}
+.input:hover{
+    box-shadow: 1px 1px 5px 1.5px blue;
+}
+::placeholder{
+    color: white;
+    font-family: cursive;
+}
+.formContainer{
+    background-color:lightskyblue;
+    margin: 2rem;
+    padding: 1.5rem;    
+    border-radius: 0.5rem;
+    animation-name: anim1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes anim1 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.button{
+    background-color: black;
+    color: white;
+    margin:1rem;
+    padding:0.2rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+    border-radius: 4px;
+    transition: ease-in-out 0.5s;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    
+}

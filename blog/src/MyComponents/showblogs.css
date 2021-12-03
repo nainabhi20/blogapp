@@ -1,0 +1,46 @@
+.active1{
+    background-color: 'red';
+}
+.blogscontainer{
+    background-color:lightskyblue;
+    margin: 2rem;
+    padding:2rem;
+    border-radius: 1rem;
+}
+.Bloglink{
+    background-color: seagreen;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: 1s all;
+    animation-name: anim1;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+.Bloglink:hover{
+    box-shadow: 2px 2px 4px 3px grey;
+    font-size: 17px;
+}
+.link1{
+    text-decoration: none;
+    color: white;
+    animation-name: anim2;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: 1;
+}
+@keyframes anim2 {
+    from{
+        left: -5rem;
+        opacity: 0;
+    }
+    50%{
+        left: -4rem;
+        opacity: 0.1;
+    }
+    to{
+        left: 0;
+        opacity: 1;
+    }
+    
+}
